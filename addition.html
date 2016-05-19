@@ -1,0 +1,62 @@
+<html>
+<head><title>vamsinalla</title></head>
+
+  <body bgcolor=#a9a9a9><center>
+    <div id="header">
+      <h1>ADD,MUL&DIV</h1>
+    </div>
+  <h2>addition of two numbers</h2>
+    <br/>Enter first number:
+    <input type="text" id="txt1" name="text1">Enter second number:
+    <input type="text" id="txt2" name="text2">
+    <br/>
+    <button onclick="add()">add</button>
+    <br/>
+    <p id="demo"></p>
+
+    <script>
+      function add() {
+        var y = document.getElementById("txt1").value;
+        var z = document.getElementById("txt2").value;
+        var x = y -(-z);
+        document.getElementById("demo").innerHTML = x;
+      }
+    </script>
+
+    <h2>multiplication of two numbers</h2>
+    <br/>Enter first number:
+    <input type="text" id="txt3" name="text3">Enter second number:
+    <input type="text" id="txt4" name="text4">
+    <br/>
+    <button onclick="mul()">mul</button>
+    <br/>
+    <p id="demo1"></p>
+
+    <script>
+      function mul() {
+        var m = document.getElementById("txt3").value;
+        var n = document.getElementById("txt4").value;
+        var o = m * n ;
+        document.getElementById("demo1").innerHTML = o;
+      }
+    </script>
+    <h2>division of two numbers</h2>
+    <br/>Enter first number:
+    <input type="text" id="txt5" name="text5">Enter second number:
+    <input type="text" id="txt6" name="text6">
+    <br/>
+    <button onclick="div()">div</button>
+    <br/>
+    <p id="demo2"></p>
+
+    <script>
+      function div() {
+        var a = document.getElementById("txt5").value;
+        var b = document.getElementById("txt6").value;
+        var c = a / b ;
+        document.getElementById("demo2").innerHTML = c;
+      }
+    </script>
+  </body>
+  <marquee>VAMSI NALLA</marquee>
+</html>
