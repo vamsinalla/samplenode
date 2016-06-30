@@ -1,5 +1,5 @@
 {
-	"scripts" :{"start":"node table1.js"},
+	"scripts" :{"start":"node form.js"},
   "dependencies": {
     "express": "^4.13.4"
   }
